@@ -146,3 +146,8 @@ class FilterMenu:
         filtered_data = filtered_data[filtered_data["Ano"]== ano]
 
         return filtered_data, cards_data
+    
+
+
+
+
