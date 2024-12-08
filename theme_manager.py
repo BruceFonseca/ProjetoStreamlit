@@ -142,6 +142,12 @@ class ThemeManager:
                     max-width: 100%;
                     margin: 0 auto;
                 }}
+
+                /*Header*/
+                .stAppHeader.st-emotion-cache-12fmjuu.ezrtsby2{{
+                    background-color: {config["background_color"]};
+                    color: {config["label_color"]};
+                }}
             </style>
             """,
             unsafe_allow_html=True
